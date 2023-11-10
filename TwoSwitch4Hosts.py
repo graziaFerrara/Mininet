@@ -2,8 +2,8 @@ from mininet.topo import Topo
 from mininet.net import Mininet
 from mininet.link import TCLink
 
- # Create a simple topology with 2 hosts and 1 switch. 
- # The links between h1-s1 and h2-s2 have different features in terms of delay, bw,  ptk loss
+# Create a simple topology with 2 hosts and 1 switch. 
+# The links between h1-s1 and h2-s2 have different features in terms of delay, bw,  ptk loss
 class TwoSwitch4Hosts(Topo):
     def build(self):
         h1 = self.addHost('h1')
